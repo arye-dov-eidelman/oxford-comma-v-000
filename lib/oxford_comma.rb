@@ -9,5 +9,6 @@ def oxford_comma(array)
     array.each_and_index do |string, i|
       result += 'and ' if i==array.length-1 + string + ', ' if i!=array.length-1
     end
+    result
   end
 end
