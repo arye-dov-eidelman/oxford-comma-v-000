@@ -6,7 +6,7 @@ def oxford_comma(array)
   when 2
 
 
-  when >= 3
+  when (array.length >= 3)
 
 
   end
