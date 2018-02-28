@@ -7,6 +7,6 @@ def oxford_comma(array)
   when (array.length >= 3)
     array.each_and_index do |string, i|
       puts 'and ' if i==array.length-1 + string + ', ' if i!=array.length-1
-end
+    end
   end
 end
